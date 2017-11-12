@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+  /*header section*/
+header {
+  width: 100%;
+  height: 69px;
+  display: inline-flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  color: seashell;
+}
+
+/*title*/
+.logo {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+/*navigation*/
+nav {
+  display: flex;
+  text-align: right;
+}
+
+
+  nav li {
+  display: inline-block;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+nav a {
+  color: seashell;
+}
+
+/*mission section*/
+ .mission-background{
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url('C:/Users/Δημήτρης/Documents/TeaCozy/resources/images/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.mission-title {
+  width: 1200px;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  color: seashell;
+}
+
+
+/*Tea header*/
+.tea {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+/*Tea varieties*/
+.varieties {
+  display: inline-flex;
+  width: 1000px;
+  height: 600px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.varieties-square {
+  height: 200px;
+  width: 300px;
+  margin: 0px 15px;
+}
+
+.varieties-img img {
+  height: 200px;
+  width: 300px;
+}
+
+.varieties-title h4 {
+  height: auto;
+  width: 300px;
+  margin-top: 15px;
+}
+
+/*Locations*/
+.locations {
+  background-image: url("C:/Users/Δημήτρης/Documents/TeaCozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 80px;
+}
